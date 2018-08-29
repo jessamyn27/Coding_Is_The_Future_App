@@ -4,6 +4,7 @@ import Card from './Card/Card';
 import DrawButton from './DrawButton/DrawButton';
 import Note from './Note/Note';
 import NoteForm from './NoteForm/NoteForm';
+import {Route, Switch} from 'react-router-dom';
 
 import firebase from 'firebase/app';
 import 'firebase/database';
@@ -75,7 +76,7 @@ class App extends Component {
     return (
       <div className="notesWrapper">
         <div className="notesHeader">
-          <div className="heading">React & Firebase To-Do List</div>
+          <div className="heading">My Super Sweet To-Do List</div>
         </div>
         <div className="notesBody">
           {
