@@ -1,0 +1,117 @@
+.welcome-container {
+  transition: all 1s ease-in-out;
+  /* color: rgba(71, 77, 108, 1); */
+}
+
+.coding {
+    display: flex;
+    flex: 1 1 5%;
+    /* background-color: rgba(0,0,0,0.5); */
+    min-height: 2.5em;
+    max-height: 2em;
+    font-size: 3.2em;
+    color: rgba(197, 199, 231, 0.2);
+    font-family: 'Play', regular;
+    text-align: center;
+    align-content: center;
+    padding:20px 0px 20px 0px;
+    margin-bottom: 60px;
+    background-color: rgba(0,0,0,0);
+    /* text-shadow: 1px 1px 1px #000; */
+    display: block;
+    transition: 10s ease-out;
+    transition: 10s ease-in;
+    text-decoration: inherit;
+
+}
+.coding:hover{
+    background-color: rgb(103, 111, 208, .2);
+    color: rgba(197, 199, 231, 1);
+    transition: 4s ease-out;
+    transition: 1s ease-in;
+}
+
+.test {
+    display: flex;
+    flex: 1 1 5%;
+    /* background-color: rgba(0,0,0,0.5); */
+    min-height: 2.5em;
+    max-height: 2em;
+    font-size: 3.2em;
+    color: rgba(197, 199, 231, 0.2);
+    font-family: 'Play', regular;
+    text-align: center;
+    align-content: center;
+    padding:20px 0px 20px 0px;
+    margin-bottom: 60px;
+    background-color: rgba(0,0,0,0);
+    /* text-shadow: 1px 1px 1px #000; */
+    display: block;
+    transition: 10s ease-out;
+    transition: 10s ease-in;
+    text-decoration: inherit;
+}
+.Link {
+  text-decoration: none;
+}
+.test:hover{
+    background-color: rgb(103, 111, 208, .2);
+    color: rgba(197, 199, 231, 1);
+    transition: 4s ease-out;
+    transition: 1s ease-in;
+  }
+  .make {
+      display: flex;
+      flex: 1 1 5%;
+      /* background-color: rgba(0,0,0,0.5); */
+      min-height: 2.5em;
+      max-height: 2em;
+      font-size: 3.2em;
+      color: rgba(197, 199, 231, 0.2);
+      font-family: 'Play', regular;
+      text-align: center;
+      align-content: center;
+      padding:20px 0px 20px 0px;
+      margin-bottom: 60px;
+      background-color: rgba(0,0,0,0);
+      /* text-shadow: 1px 1px 1px #000; */
+      display: block;
+      transition: 10s ease-out;
+      transition: 10s ease-in;
+      text-decoration: inherit;
+
+  }
+  .make:hover{
+      background-color: rgb(103, 111, 208, .2);
+      color: rgba(197, 199, 231, 1);
+      transition: 4s ease-out;
+      transition: 1s ease-in;
+    }
+
+    .check {
+        display: flex;
+        flex: 1 1 5%;
+        /* background-color: rgba(0,0,0,0.5); */
+        min-height: 2.5em;
+        max-height: 2em;
+        font-size: 3.2em;
+        color: rgba(197, 199, 231, 0.2);
+        font-family: 'Play', regular;
+        text-align: center;
+        align-content: center;
+        padding:20px 0px 20px 0px;
+        margin-bottom: 60px;
+        background-color: rgba(0,0,0,0);
+        /* text-shadow: 1px 1px 1px #000; */
+        display: block;
+        transition: 10s ease-out;
+        transition: 10s ease-in;
+        text-decoration: inherit;
+
+    }
+    .check:hover{
+        background-color: rgb(103, 111, 208, .2);
+        color: rgba(197, 199, 231, 1);
+        transition: 4s ease-out;
+        transition: 1s ease-in;
+      }

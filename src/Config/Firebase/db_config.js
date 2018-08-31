@@ -1,3 +1,7 @@
+import * as firebase from 'firebase';
+
+
+
 export const DB_CONFIG = {
 //   <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
 // <script>
@@ -14,3 +18,9 @@ export const DB_CONFIG = {
   // firebase.initializeApp(config);
 // </script>
 // }
+// Config file
+//
+export default !firebase.apps.length ? firebase.initializeApp(DB_CONFIG) : firebase.app();
+//
+// // Other file
+// import firebase from '../firebase';

@@ -1,20 +1,40 @@
 .btn {
   font-size: 1.5em;
-  border: none;
-  width: 200px;
+  /* border: white; */
+  width: 70px;
   height: 70px;
   display: block;
   text-align: center;
   text-decoration: none;
-  color: #ecf0f1;
-  background: #34495e;
+  /* color: black; */
+  /* color: #ecf0f1; */
+  /* transform-style: preserve-3d; */
+  /* transition: all 10s ease-in-out; */
+  background-color: rgba(71, 77, 108, 0.01);
+  border-style: inset;
+  border-color: white;
+  /* border-width: 2px; */
+  border-radius: 100px;  /* background: #34495e; */
   margin: auto;
   margin-top: 20px;
+  color: white;
+
+}
+.btnRow{
+  display: block;
+  padding: 5px;
 }
 
-.btn:active{
-  border: none;
-  position: relative;
-  top: 3px;
-  background: #2c3e50;
-}
+/* .btn:active{ */
+  /* border: white; */
+  /* position: relative; */
+  /* top: 3px;
+  color: rgba(71, 77, 108, .2);
+  /* background: #2c3e50; */
+  /* border-style: inset;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 100px;  /* background: #34495e; */
+  /* margin: auto;
+  margin-top: 20px;
+} */

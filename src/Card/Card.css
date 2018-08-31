@@ -1,25 +1,37 @@
+.flashcard {
+  /* position: relative; */
+}
+
 .card-container{
   cursor: pointer;
   height: 500px;
   width: 800px;
-  perspective: 800px;
+  perspective: 2000px;
   position: relative;
   margin: auto;
   transition: ease-in;
+  /* color: #474D6C; */
+  margin-top: 5%;
 }
 
 .card {
   height: 500px;
   width: 800px;
-  position: absolute;
-  border: 2px solid #300;
+  position: relative;
+  /* border: 2px solid #300; */
   transform-style: preserve-3d;
-  transition: all 0.2s ease-in-out;
+  transition: all 1s ease-in-out;
+  color: rgba(71, 77, 108, 0.4);
+  border-style: inset;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 30px;
+
 }
 
 .card:hover {
   transform: rotateY(180deg);
-  transition: all 0.2s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .card .front {
@@ -29,7 +41,9 @@
   position: absolute;
   overflow: hidden;
   text-align: center;
-  background-color: rgba(255, 251, 251, 1);
+  background-color: rgba(71, 77, 108, 0.1);
+  /* background-color: #474D6C; */
+
 }
 
 .card .back {
@@ -37,22 +51,28 @@
   width: 800px;
   text-align: center;
   transform: rotateY(180deg);
+  /* background-color: #474D6C; */
+  backface-visibility: hidden;
+  background-color: rgba(71, 77, 108, 0.1);
 }
 
 .eng{
   color: #333;
   font-size: 1.3em;
-  padding-top: 20%;
+  padding-top: 25%;
+  color: white;
+  text-align: center;
+
 }
 
 .han{
   color: #333;
   font-size: 1.3em;
-  padding-top: 20%;
+  padding-top: 25%;
+  color: white;
 }
 
-.pin{
-  color: #333;
-  font-size: 1.3em;
-  padding-top: 10%;
+.cardRow{
+  display: block;
+  padding: 5px;
 }

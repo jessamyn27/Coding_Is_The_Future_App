@@ -3,19 +3,16 @@
   {
   "id": 1,
   "eng": "what is NPM?",
-  "han": "Node Package Manager",
-  "pin": "used for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs... like this one!"
+  "han": "Node Package Manager,used for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs... like this one!"
 },
 {
   "id": 2,
   "eng": "what is Node?",
-  "han": "JS run-time environment",
-  "pin": "it includes all you need to execute a program written in JS... like this one!"
+  "han": "JS run-time environment, it includes all you need to execute a program written in JS... like this one!"
 },
 {
   "id": 3,
   "eng": "what is Nodemon?",
-  "han": "NPM package that allows us to run code like node",
-  "pin": "will restart the app when the directory changes"
+  "han": "NPM package that allows us to run code like node will, restart the app when the directory changes",
 }]
 }

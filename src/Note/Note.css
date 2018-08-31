@@ -3,41 +3,112 @@
   height: auto;
   margin: auto;
   margin-bottom: 8px;
-  width: 60%;
+  width: 51%;
   font-family: 'Lato', sans-serif;
   font-size: 1.4em;
-  color: #222;
-  background-color: #eed;
-  border-radius: 3px;
+  background-position: center;
+  color: white;
+  background-color: #0F254D;
+  border-radius: 20px;
   box-shadow: 43x 3px 2px #333;
   opacity: 1;
+  transition: 0.2s ease-out;
+  transition: .7s ease-in;
 }
 
-@keyframes fadeIn { from { opacity:0; } to { opacity:0.8; } }
-@keyframes fadeOut { from { opactiy:0.8; } to { opacity:0; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:0.5; } }
+@keyframes fadeOut { from { opacity:0.5; } to { opacity:0; } }
 
 .fade-in {
     opacity:0;
-    animation:fadeIn ease-in 1;
+    animation: fadeIn ease-in .5s;
     animation-fill-mode:forwards;
-    animation-duration: 0.1s;
+    animation-duration: .5s;
 }
 
 .noteContent{
-  float:left;
+  float:center;
   padding-right: 70px;
   padding-bottom: 10px;
   display: block;
+  transition: 0.2s ease-out;
+  transition: .7s ease-in;
 }
-
+.noteContent:hover {
+    color: #0F254D;
+    transition: 0.2s ease-out;
+    transition: .2s ease-in;
+}
 .closebtn {
     color: #AA9;
     font-weight: bold;
     float: right;
     cursor: pointer;
     font-size: 1.3em;
+    transition: 0.2s ease-out;
+    transition: .7s ease-in;
 }
 
 .closebtn:hover {
-    color: #AC2500;
+    color: #0F254D;
+    transition: 0.2s ease-out;
+    transition: .2s ease-in;
+}
+.notesWrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+}
+
+.notesHeader {
+  display: flex;
+  flex: 1 1 5%;
+  min-height: 2.5em;
+  max-height: 2em;
+  font-size: 2.2em;
+  color: #F4B350;
+  font-family: 'Play', regular;
+  text-align: center;
+  align-content: center;
+  padding:20px 0px 20px 0px;
+  margin-bottom: 6px;
+  background-color: rgba(0,0,0,0.5);
+  text-shadow: 3px 3px 10px #000;
+  display: block;
+  margin-top: 60px;
+
+}
+
+.notesHeader:hover {
+    color: #0F254D;
+    transition: 0.2s ease-out;
+    transition: .2s ease-in;
+  }
+.notesBody {
+  padding-top: 24px;
+  display: flex;
+  flex: 1 1 85%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.notesFooter {
+  display: flex;
+  flex: 1 1 5%;
+  background-color: rgba(0,0,0,0.5);
+  min-height: 2.5em;
+  max-height: 2em;
+  font-size: 2.2em;
+  color: #F4B350;
+  font-family: 'Play', regular;
+  text-align: center;
+  align-content: center;
+  padding:20px 0px 20px 0px;
+  margin-bottom: 60px;
+  background-color: rgba(0,0,0,0.5);
+  text-shadow: 3px 3px 10px #000;
+  display: block;
 }
