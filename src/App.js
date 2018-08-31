@@ -5,7 +5,7 @@ import Todo from './Todo';
 import Welcome from './Welcome';
 import './App.css';
 import { Link } from 'react-router-dom';
-
+import Resources from './Resources';
 
 class App extends Component {
   render() {
@@ -16,7 +16,7 @@ class App extends Component {
       <Switch>
         <Route exact path='/flashcard' component={Flashcard} />
         <Route exact path='/todo' component={Todo} />
-        {/* <Resources exact path='/resources' component={Resources} /> */}
+        <Resources exact path='/resources' component={Resources} />
         <Welcome exact path='/' component={Welcome} />
       </Switch>
     </div>

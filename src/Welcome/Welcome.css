@@ -19,8 +19,8 @@
     background-color: rgba(0,0,0,0);
     /* text-shadow: 1px 1px 1px #000; */
     display: block;
-    transition: 10s ease-out;
-    transition: 10s ease-in;
+    transition: 3s ease-out;
+    transition: 3s ease-in;
     text-decoration: inherit;
 
 }
@@ -47,8 +47,8 @@
     background-color: rgba(0,0,0,0);
     /* text-shadow: 1px 1px 1px #000; */
     display: block;
-    transition: 10s ease-out;
-    transition: 10s ease-in;
+    transition: 3s ease-out;
+    transition: 3s ease-in;
     text-decoration: inherit;
 }
 .Link {
@@ -76,8 +76,8 @@
       background-color: rgba(0,0,0,0);
       /* text-shadow: 1px 1px 1px #000; */
       display: block;
-      transition: 10s ease-out;
-      transition: 10s ease-in;
+      transition: 3s ease-out;
+      transition: 3s ease-in;
       text-decoration: inherit;
 
   }
@@ -104,8 +104,8 @@
         background-color: rgba(0,0,0,0);
         /* text-shadow: 1px 1px 1px #000; */
         display: block;
-        transition: 10s ease-out;
-        transition: 10s ease-in;
+        transition: 3s ease-out;
+        transition: 3s ease-in;
         text-decoration: inherit;
 
     }

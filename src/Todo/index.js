@@ -71,8 +71,11 @@ class Todo extends Component {
   render() {
     return (
       <div className="notesWrapper">
+        {/* <div className="notesHeader"> */}
+          {/* <div className="heading">My Super Sweet To-Do List</div> */}
+        {/* </div> */}
         <div className="notesHeader">
-          <div className="heading">My Super Sweet To-Do List</div>
+          <NoteForm addNote={this.addNote} />
         </div>
         <div className="notesBody">
           {
@@ -86,9 +89,7 @@ class Todo extends Component {
             })
           }
         </div>
-        <div className="notesFooter">
-          <NoteForm addNote={this.addNote} />
-        </div>
+
       </div>
     );
   }
