@@ -1,18 +1,143 @@
 {
-  "cards": [
-  {
-  "id": 1,
-  "eng": "what is NPM?",
-  "han": "Node Package Manager,used for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs... like this one!"
-},
-{
-  "id": 2,
-  "eng": "what is Node?",
-  "han": "JS run-time environment, it includes all you need to execute a program written in JS... like this one!"
-},
-{
-  "id": 3,
-  "eng": "what is Nodemon?",
-  "han": "NPM package that allows us to run code like node will, restart the app when the directory changes",
-}]
+	"cards": [{
+			"id": 1,
+			"eng": "what is NPM?",
+			"han": "Node Package Manager,used for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs... like this one!"
+		},
+		{
+			"id": 2,
+			"eng": "what is the role of a Schema?",
+			"han": "mongoose allows us to create blueprints with properties for our objects since mongo lets you put whatever you want in your collection"
+		},
+		{
+			"id": 3,
+			"eng": "what is Node?",
+			"han": "JS run-time environment, it includes all you need to execute a program written in JS... like this one!"
+		},
+		{
+			"id": 4,
+			"eng": "what is MongoDB?",
+			"han": "MongoDB is one of several database types to arise in the mid-2000s under the NoSQL banner. Instead of using tables and rows as in relational databases, MongoDB is built on an architecture of collections and documents. Documents comprise sets of key-value pairs and are the basic unit of data in MongoDB."
+		},
+		{
+			"id": 5,
+			"eng": "what does ODM stand for?",
+			"han": "Object Document Model: translates ‘documents’ being stored in Mongo into fancier JS objects that have good methods and properties"
+		},
+		{
+			"id": 7,
+			"eng": "what is a Library?",
+			"han": "A collection of functions, objects, and even other libraries that you call. It has no idea what you're going to build"
+		},
+		{
+			"id": 8,
+			"eng": "what is a Framework?",
+			"han": "Is essentially just a library but it also a preconceived skeleton for an application. It knows what you're going to build and is somewhat opinionated about how you should do it."
+		},
+		{
+			"id": 9,
+			"eng": "what is Python?",
+			"han": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together."
+		},
+		{
+			"id": 10,
+			"eng": "what is JavaScript?",
+			"han": "JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)"
+		},
+		{
+			"id": 11,
+			"eng": "what is MVC?",
+			"han": "model view controller, best way to keep an app from getting messy is to separate it out into three sections 1. Models  data like js variables, schemas 2. Views how the data is displayed to the user like HTML, template, ejs files in express stands for Embedded JS 3. Controller  glue that connects the models with the views"
+		},
+		{
+			"id": 12,
+			"eng": "what is REST?",
+			"han": "Representational State Transfer, architectural style designed for API. The principles of RESTful architecture serve to create a stable and reliable application, that offers simplicity and end-user satisfaction."
+		},
+		{
+			"id": 13,
+			"eng": "what is Client-Server Mandate?",
+			"han": "A principle of REST, requests are made by the client and accepted or rejected by the server"
+		},
+		{
+			"id": 14,
+			"eng": "what is Statelessness?",
+			"han": "A principle of REST, communication between client and server is initiated by a request, which contains all the infor necessary for the server to respond"
+		},
+		{
+			"id": 15,
+			"eng": "what is a Cache?",
+			"han": "A principle of REST - mitigates some constraints of statelessness, like a request that is cached by the client avoids re-submitting the same request twice"
+		},
+		{
+			"id": 16,
+			"eng": "what is Interface / Uniform Contract?",
+			"han": "A principle of REST - prohibits the use of multiple self contained interfaces within an API, it’s just one interface distributed by hypermedia connections"
+		},
+		{
+			"id": 17,
+			"eng": "what is a Layered System?",
+			"han": "A principle of REST - this makes RESTful architecture scalable, they can grow and cannot see into the other layer.  This allows for MIDDLEWARE and new commands"
+		},
+		{
+			"id": 18,
+			"eng": "what is an API?",
+			"han": "Application Programming Interface - web service that conforms to the principles of rest - Each API is called by issuing a standard HTTP request method of GET / POST / PUT / DELETE"
+		},
+		{
+			"id": 19,
+			"eng": "what is an Immutable State?",
+			"han": "Immutable state - object (unchangeable object) is an object whose state cannot be modified after it is created."
+		},
+		{
+			"id": 20,
+			"eng": "what is a Mutable State?",
+			"han": "Mutable state - This is in contrast to a mutable object (changeable object), which can be modified after it is created."
+		},
+		{
+			"id": 21,
+			"eng": "what is a High Order Function?",
+			"han": "functions that can return functions or receive other functions as params"
+		},
+		{
+			"id": 22,
+			"eng": "what is a Inheritance?",
+			"han": "(OOP) new objects taking on the attributes / methods of existing objects letting us reuse more code - EX: document.querySelector(‘#button’) .addEventListener(‘click’, function(){ alert(‘yay, i got clicked’)})"
+		},
+		{
+			"id": 22,
+			"eng": "what is OOP?",
+			"han": "object oriented programming is a programming paradigm based on the concept of objects, which may contain data (attributes) in the form of fields and code (methods) in the form of procedures.  An object’s procedures can access and modify the data fields of the object with the notation .this or .self which alters the ‘state’ of the object"
+		},
+		{
+			"id": 22,
+			"eng": "in OOP what is an Object?",
+			"han": "are instances of a class, which is like a template, and are seen as individual entities which interact with each other.  Objects are mutable - can be changed"
+		},
+		{
+			"id": 22,
+			"eng": "what is Functional Programming?",
+			"han": "language that focuses on the computation of pure functions, meaning everything revolves around keeping it PURE  / Unlike an object-oriented approach, which encourages decomposition of a program into ‘objects’ which relate to a particular domain, a functional approach guides the developer to decompose a program into small functions, which are then combined to form an application.  Ex: complete separation between the data of a program and behaviors of a program / Objects are immutable - once created it can’t be changed / No shared state - objects don’t share scope / Adhere to Pure function"
+		},
+		{
+			"id": 22,
+			"eng": "what is Pure Function?",
+			"han": "a function (in FP) where: Return value only depends on the input (if you input the same value, you always return it) / No side effects (no network or db calls could affect the return value) / Do not alter the data that was passed into them, only describe how the input will be changed. So, we ONLY care about return values, no ‘side effects’ like a console log or a variable outside of its scope (shared state)"
+		},
+		{
+			"id": 22,
+			"eng": "what is React?",
+			"han": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”. React has a few different kinds of components like Stateless (props) and Stateful (passes state)"
+		},
+		{
+			"id": 22,
+			"eng": "what is Express.js?",
+			"han": "Express.js is a Node.js web application server framework, designed for building single-page, multi-page, and hybrid web applications. It is the de facto standard server framework for node.js. Frameworks built on Express."
+		},
+		{
+			"id": 23,
+			"eng": "what is Nodemon?",
+			"han": "NPM package that allows us to run code like node will, restart the app when the directory changes"
+		}
+	]
 }

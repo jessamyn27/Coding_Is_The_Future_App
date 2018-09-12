@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import {Route, Switch} from 'react-router-dom';
 import Flashcard from './Flashcard';
 import Todo from './Todo';
 import Welcome from './Welcome';
 import './App.css';
 import { Link } from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
+
 import Resources from './Resources';
 
 class App extends Component {
@@ -19,7 +20,9 @@ class App extends Component {
         <Resources exact path='/resources' component={Resources} />
         <Welcome exact path='/' component={Welcome} />
       </Switch>
-    </div>
+    <Link className='notesFooter' to='/'>made with &hearts;	by jessamyn</Link>
+  </div>
+
   )}
 }
 

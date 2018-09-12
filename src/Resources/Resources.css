@@ -10,7 +10,7 @@
     text-align: center;
     align-content: center;
     padding:20px 0px 20px 0px;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     background-color: rgba(0,0,0,0);
     /* text-shadow: 1px 1px 1px #000; */
     display: block;
@@ -20,36 +20,39 @@
 
 }
 .resources:hover{
-    background-color: rgb(103, 111, 208, .2);
+    background-color: rgb(103, 111, 208, .1);
     color: rgba(197, 199, 231, 1);
-    transition: 4s ease-out;
+    transition: 7s ease-out;
     transition: 1s ease-in;
+    font-size: 5em ease-in;
+    font-size: 3.2 ease-out;
   }
 
   .mdn {
       display: flex;
       flex: 1 1 5%;
       /* background-color: rgba(0,0,0,0.5); */
-      min-height: 2.5em;
-      max-height: 2em;
-      font-size: 3.2em;
+      min-height: 1.5em;
+      max-height: 2.5em;
+      font-size: 1.2em;
       color: rgba(197, 199, 231, 0.2);
       font-family: 'Play', regular;
       text-align: center;
       align-content: center;
       padding:20px 0px 20px 0px;
-      margin-bottom: 60px;
+      margin-bottom: 30px;
       background-color: rgba(0,0,0,0);
       /* text-shadow: 1px 1px 1px #000; */
       display: block;
-      transition: 3s ease-out;
-      transition: 3s ease-in;
+      transition: 5s ease-out;
+      transition: 2s ease-in;
       text-decoration: inherit;
 
   }
   .mdn:hover{
-      background-color: rgb(103, 111, 208, .2);
+      background-color: rgb(103, 111, 208, .1);
       color: rgba(197, 199, 231, 1);
-      transition: 4s ease-out;
+      transition: 7s ease-out;
       transition: 1s ease-in;
+
     }
