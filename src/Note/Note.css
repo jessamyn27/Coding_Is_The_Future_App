@@ -1,4 +1,5 @@
 .note {
+
   padding:10px 10px 38px 34px;
   height: auto;
   margin: auto;
@@ -55,15 +56,13 @@
     transition: .2s ease-in;
 }
 .notesWrapper {
-  display: flex;
-  flex: 1 1 auto;
+  /* display: flex; */
+  /* flex: 1 1 auto; */
   flex-direction: column;
   height: 100%;
 }
 
 .notesHeader {
-  display: flex;
-  flex: 1 1 5%;
   min-height: 2.5em;
   max-height: 2em;
   font-size: 2.2em;
@@ -73,11 +72,8 @@
   align-content: center;
   padding:20px 0px 20px 0px;
   margin-bottom: 6px;
-  /* background-color: rgba(0,0,0,0.5); */
   text-shadow: 3px 3px 10px #000;
   display: block;
-  /* margin-top: 60px; */
-
 }
 
 .notesHeader:hover {
@@ -95,32 +91,28 @@
   overflow: auto;
 }
 
-.notesFooter {
+.notesFoo {
   display: flex;
-  flex: 1 1 5%;
-  /* background-color: rgba(0,0,0,0.5); */
-  min-height: 2.5em;
+  min-height: 1.5em;
   max-height: 2em;
-  font-size: 2em;
+  font-size: 2.2em;
   color: rgba(197, 199, 231, 0.2);
   font-family: 'Play', regular;
-  text-align: right;
+  text-align: center;
   align-content: center;
   padding:20px 0px 20px 0px;
-  margin-right: 100px;
-  margin-top: -100px;
-
-  background-color: rgba(0,0,0,.1);
-  /* text-shadow: 1px 1px 1px #000; */
+  margin-bottom: 10px;
+  background-color: rgba(0,0,0,0);
   display: block;
   transition: 3s ease-out;
   transition: 3s ease-in;
   text-decoration: inherit;
 }
 
-.notesFooter :hover {
-  background-color: rgb(103, 111, 208, .1);
+.notesFoo:hover {
+  /* background-color: rgb(103, 111, 208, .1); */
   color: rgba(197, 199, 231, 1);
   transition: 7s ease-out;
   transition: 1s ease-in;
+
   }

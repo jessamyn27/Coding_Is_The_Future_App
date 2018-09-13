@@ -1,11 +1,11 @@
 .flashcard {
-  /* position: relative; */
+  position: relative;
 }
 
 .card-container{
   cursor: pointer;
-  height: 500px;
-  width: 800px;
+  height: 400px;
+  width: 700px;
   perspective: 2000px;
   position: relative;
   margin: auto;
@@ -15,8 +15,8 @@
 }
 
 .card {
-  height: 500px;
-  width: 800px;
+  height: 400px;
+  width: 700px;
   position: relative;
   /* border: 2px solid #300; */
   transform-style: preserve-3d;
@@ -29,14 +29,19 @@
 
 }
 
+/* .card:onClick {
+  transform: rotateY(180deg);
+  transition: all 1s ease-in-out;
+} */
+
 .card:hover {
   transform: rotateY(180deg);
   transition: all 1s ease-in-out;
 }
 
 .card .front {
-  height: 500px;
-  width: 800px;
+  height: 400px;
+  width: 680px;
   backface-visibility: hidden;
   position: absolute;
   overflow: hidden;
@@ -47,8 +52,8 @@
 }
 
 .card .back {
-  height: 500px;
-  width: 800px;
+  height: 400px;
+  width: 680px;
   text-align: center;
   transform: rotateY(180deg);
   /* background-color: #474D6C; */

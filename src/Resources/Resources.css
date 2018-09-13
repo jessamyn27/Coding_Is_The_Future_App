@@ -1,8 +1,6 @@
 .resources {
     display: flex;
-    flex: 1 1 5%;
-    /* background-color: rgba(0,0,0,0.5); */
-    min-height: 2.5em;
+    min-height: 1.5em;
     max-height: 2em;
     font-size: 3.2em;
     color: rgba(197, 199, 231, 0.2);
@@ -12,7 +10,6 @@
     padding:20px 0px 20px 0px;
     margin-bottom: 10px;
     background-color: rgba(0,0,0,0);
-    /* text-shadow: 1px 1px 1px #000; */
     display: block;
     transition: 3s ease-out;
     transition: 3s ease-in;
@@ -30,7 +27,7 @@
 
   .mdn {
       display: flex;
-      flex: 1 1 5%;
+      /* flex: 1 1 5%; */
       /* background-color: rgba(0,0,0,0.5); */
       min-height: 1.5em;
       max-height: 2.5em;
@@ -40,7 +37,7 @@
       text-align: center;
       align-content: center;
       padding:20px 0px 20px 0px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       background-color: rgba(0,0,0,0);
       /* text-shadow: 1px 1px 1px #000; */
       display: block;

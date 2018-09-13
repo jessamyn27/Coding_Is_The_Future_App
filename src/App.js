@@ -20,7 +20,7 @@ class App extends Component {
         <Resources exact path='/resources' component={Resources} />
         <Welcome exact path='/' component={Welcome} />
       </Switch>
-    <Link className='notesFooter' to='/'>made with &hearts;	by jessamyn</Link>
+    <Link className='notesFoo' to='/'>home</Link>
   </div>
 
   )}

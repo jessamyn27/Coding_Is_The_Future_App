@@ -4,12 +4,12 @@
 }
 
 .coding {
-    display: flex;
-    flex: 1 1 5%;
+    /* display: flex; */
+    /* flex: 1 1 5%; */
     /* background-color: rgba(0,0,0,0.5); */
     min-height: 2em;
     max-height: 2em;
-    font-size: 4.2em;
+    font-size: 3.2em;
     color: rgba(197, 199, 231, 0.2);
     font-family: 'Play', regular;
     text-align: center;
@@ -33,9 +33,9 @@
 
 .test {
     display: flex;
-    flex: 1 1 5%;
+    /* flex: 1 1 5%; */
     /* background-color: rgba(0,0,0,0.5); */
-    min-height: 2.5em;
+    min-height: 1.5em;
     max-height: 2em;
     font-size: 3.2em;
     color: rgba(197, 199, 231, 0.2);
@@ -62,9 +62,9 @@
   }
   .make {
       display: flex;
-      flex: 1 1 5%;
+      /* flex: 1 1 5%; */
       /* background-color: rgba(0,0,0,0.5); */
-      min-height: 2.5em;
+      min-height: 1.5em;
       max-height: 2em;
       font-size: 3.2em;
       color: rgba(197, 199, 231, 0.2);
@@ -92,7 +92,7 @@
         display: flex;
         flex: 1 1 5%;
         /* background-color: rgba(0,0,0,0.5); */
-        min-height: 2.5em;
+        min-height: 1.5em;
         max-height: 2em;
         font-size: 3.2em;
         color: rgba(197, 199, 231, 0.2);
