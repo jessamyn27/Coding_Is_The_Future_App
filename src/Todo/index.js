@@ -8,6 +8,8 @@ import {Route, Switch} from 'react-router-dom';
 
 import firebase from 'firebase/app';
 import 'firebase/database';
+import 'firebase/app';
+
 
 import { connect } from 'react-firebase';
 import { DB_CONFIG } from '../Config/Firebase/db_config';
